@@ -1,0 +1,1173 @@
+[DEBUG][2018/01/10 23:25:01580][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/10 23:25:01918][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:25:01918][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:25:01918][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:25:01919][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:25:02175][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/10 23:25:02578][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 662822946.
+ [DEBUG][2018/01/10 23:25:02581][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/10 23:25:02636][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/10 23:25:02661][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/10 23:25:02662][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2781e022]
+ [DEBUG][2018/01/10 23:25:02663][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 662822946 to pool.
+ [DEBUG][2018/01/10 23:26:28780][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/10 23:26:28967][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:26:28968][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:26:28968][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:26:28969][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:26:29130][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/10 23:26:29515][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 662822946.
+ [DEBUG][2018/01/10 23:26:29519][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/10 23:26:29585][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/10 23:26:29637][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/10 23:26:29641][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2781e022]
+ [DEBUG][2018/01/10 23:26:29642][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 662822946 to pool.
+ [DEBUG][2018/01/10 23:28:33627][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/10 23:28:33819][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:28:33820][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:28:33821][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:28:33822][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:28:3419 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/10 23:28:34578][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 662822946.
+ [DEBUG][2018/01/10 23:28:34597][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/10 23:28:34709][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/10 23:28:34751][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/10 23:28:34752][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2781e022]
+ [DEBUG][2018/01/10 23:28:34752][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 662822946 to pool.
+ [DEBUG][2018/01/10 23:31:18183][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/10 23:31:18470][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:31:18471][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:31:18471][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:31:18472][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:31:18611][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/10 23:31:18998][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 662822946.
+ [DEBUG][2018/01/10 23:31:190  ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/10 23:31:1939 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/10 23:31:1975 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/10 23:31:1976 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2781e022]
+ [DEBUG][2018/01/10 23:31:1978 ][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 662822946 to pool.
+ [DEBUG][2018/01/10 23:34:29550][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/10 23:34:29736][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:34:29737][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:34:29738][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:34:29738][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/10 23:34:29911][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/10 23:34:30349][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 662822946.
+ [DEBUG][2018/01/10 23:34:30357][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/10 23:34:30502][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/10 23:34:30573][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/10 23:34:30577][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2781e022]
+ [DEBUG][2018/01/10 23:34:30580][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 662822946 to pool.
+ [DEBUG][2018/01/13 16:34:18124][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:34:18663][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:34:18664][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:34:18664][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:34:18664][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:34:18994][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:34:19358][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:34:19360][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:34:19394][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:34:19415][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:39:26874][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:39:27192][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:39:27192][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:39:27193][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:39:27193][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:39:27369][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:39:27747][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:39:27751][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,F_name FirstName,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:39:27798][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:40:28477][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:40:28704][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:40:28705][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:40:28705][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:40:28706][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:40:28950][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:40:29291][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:40:29294][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:40:29367][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:40:29411][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:41:40411][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:41:40693][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:41:40694][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:41:40695][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:41:40696][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:41:40884][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:41:41306][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 410495873.
+ [DEBUG][2018/01/13 16:41:41309][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:41:41369][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:41:41428][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:44:35437][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:44:35667][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:44:35668][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:44:35669][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:44:35670][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:44:35889][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:44:36465][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:44:36470][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:44:36634][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:44:36686][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:46:06518][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:46:06802][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:46:06813][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:46:06815][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:46:06819][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:46:06976][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:46:07358][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:46:07361][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:46:07413][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:46:07444][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:47:33584][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:47:33934][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:47:33935][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:47:33936][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:47:33937][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:47:34126][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:47:34731][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:47:34739][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:47:34898][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:47:34933][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 16:56:20840][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 16:56:2153 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:56:2155 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:56:2156 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:56:2156 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 16:56:21326][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 16:56:21721][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/13 16:56:21724][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id id,LastName L_name,FirstName F_name,Address A_addres,City C_city from Persons where P_id=? 
+ [DEBUG][2018/01/13 16:56:21781][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 3(Integer)
+ [DEBUG][2018/01/13 16:56:21816][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 17:25:27688][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 17:25:27830][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:25:27831][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:25:27831][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:25:27832][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:28:24963][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 17:28:25219][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:28:25220][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:28:25221][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:28:25222][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:29:48688][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 17:29:48994][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:29:48994][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:29:48995][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:29:48995][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:38:23213][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 17:38:23401][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:38:23401][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:38:23402][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:38:23403][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:38:23618][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 17:38:23980][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/13 17:38:23984][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/13 17:38:2441 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/13 17:38:24136][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/13 17:52:20133][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/13 17:52:20286][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:52:20287][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:52:20288][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:52:20288][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/13 17:52:20500][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/13 17:52:2182 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/13 17:52:2185 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/13 17:52:21124][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/13 17:52:21154][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/14 23:00:41235][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/14 23:00:41615][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:00:41617][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:00:41618][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:00:41618][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:00:41857][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/14 23:00:42249][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/14 23:00:42254][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/14 23:00:42332][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/14 23:00:42375][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/14 23:00:42376][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:90)]
+Persons{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/14 23:01:1313 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/14 23:01:13299][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:13300][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:13300][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:13301][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:13475][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/14 23:01:13885][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/14 23:01:13888][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/14 23:01:13958][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/14 23:01:13999][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [DEBUG][2018/01/14 23:01:4069 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/14 23:01:40345][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:40346][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:40347][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:40347][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/14 23:01:40560][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/14 23:01:40978][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/14 23:01:40983][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/14 23:01:4165 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/14 23:01:41105][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/14 23:01:41106][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:90)]
+Persons{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [INFO ][2018/01/16 22:04:57172][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:91)]
+Persons{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/16 22:05:36421][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/16 22:05:36835][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:05:36837][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:05:36838][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:05:36840][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:05:3799 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/16 22:05:37580][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/16 22:05:37592][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from Persons where P_id=? 
+ [DEBUG][2018/01/16 22:05:37694][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/16 22:05:37735][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/16 22:05:37741][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:91)]
+Persons{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/16 22:24:02954][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/16 22:24:03219][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:24:03224][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:24:03226][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:24:03227][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:25:25934][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/16 22:25:26219][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:25:26220][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:25:26220][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:25:26221][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:25:26447][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/16 22:25:26869][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/16 22:25:26880][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: insert into Persons (LastName,FirstName,Address,City) values(?,?,?,?) 
+ [DEBUG][2018/01/16 22:25:26940][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: zhangjie(String), liuxifei(String), zhejiangnanlu234hao(String), suzhou(String)
+ [DEBUG][2018/01/16 22:25:26948][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==    Updates: 1
+ [INFO ][2018/01/16 22:25:26949][com.test.MyBatisTest.test_insertPersonResultMap(MyBatisTest.java:105)]
+1
+ [DEBUG][2018/01/16 22:31:34835][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/16 22:31:3539 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:31:3540 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:31:3541 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:31:3544 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:31:35310][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/16 22:31:35741][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1208736537.
+ [DEBUG][2018/01/16 22:31:35744][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from users where age=? 
+ [DEBUG][2018/01/16 22:31:35805][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 10(Integer)
+ [DEBUG][2018/01/16 22:31:35845][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 8
+ [DEBUG][2018/01/16 22:44:57383][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/16 22:44:57674][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:44:57675][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:44:57676][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:44:57676][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/16 22:44:57878][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/16 22:44:58288][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 811587677.
+ [DEBUG][2018/01/16 22:44:58291][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: insert into Persons (LastName,FirstName,Address,City) values(?,?,?,?) 
+ [DEBUG][2018/01/16 22:44:58385][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: zhangjie(String), Zhangwang(String), zhejiang123hao(String), 白色(String)
+ [DEBUG][2018/01/16 22:44:58388][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==    Updates: 1
+ [INFO ][2018/01/16 22:44:58389][com.test.MyBatisTest.test_insertPersonResultMap(MyBatisTest.java:107)]
+1
+ [DEBUG][2018/01/18 21:51:06861][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 21:51:07299][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:51:07299][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:51:07300][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:51:07300][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:53:08120][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 21:53:08453][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:53:08454][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:53:08455][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:53:08456][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:54:41148][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 21:54:41456][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:54:41456][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:54:41457][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:54:41457][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:54:41668][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/18 21:54:42134][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/18 21:54:42137][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id,LastName,FirstName,Address,City from Persons where P_id=? 
+ [DEBUG][2018/01/18 21:54:42193][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/18 21:54:42236][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/18 21:54:42238][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:94)]
+LastNameEnum{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/18 21:56:17963][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 21:56:18215][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:56:18216][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:56:18218][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:56:18224][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:56:18494][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/18 21:56:18903][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/18 21:56:18908][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id,LastName,FirstName,Address,City from Persons where P_id=? 
+ [DEBUG][2018/01/18 21:56:18972][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/18 21:56:194  ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/18 21:56:195  ][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:94)]
+LastNameEnum{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/18 21:57:10667][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 21:57:10923][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:57:10925][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:57:10926][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:57:10928][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 21:57:11237][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/18 21:57:11713][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 22429093.
+ [DEBUG][2018/01/18 21:57:11715][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select P_id,LastName,FirstName,Address,City from Persons where P_id=? 
+ [DEBUG][2018/01/18 21:57:11788][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 4(Integer)
+ [DEBUG][2018/01/18 21:57:11842][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/18 21:57:11843][com.test.MyBatisTest.test_getPersonsResultMap(MyBatisTest.java:94)]
+LastNameEnum{id=4, L_name='ma', F_name='gang', A_addres='jinxiululu200hao', C_city='shanghai'}
+ [DEBUG][2018/01/18 23:22:13554][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 23:22:13791][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:22:13794][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:22:13801][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:22:13802][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:25:38110][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 23:25:38442][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:25:38442][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:25:38443][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:25:38443][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:27:18125][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 23:27:18325][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:27:18328][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:27:18331][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:27:18333][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:29:38174][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 23:29:38460][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:29:38461][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:29:38461][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:29:38462][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:31:11461][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/18 23:31:11678][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:31:11680][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:31:11682][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/18 23:31:11684][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:43:46585][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:43:4761 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:43:4763 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:43:4764 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:43:4766 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:46:51378][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:46:51687][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:46:51688][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:46:51688][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:46:51689][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:47:38837][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:47:39129][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:47:39131][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:47:39132][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:47:39134][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:49:30160][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:49:30458][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:49:30459][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:49:30460][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:49:30460][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:50:53277][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:50:53451][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:50:53451][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:50:53452][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:50:53453][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:50:53708][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 09:50:54165][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 09:50:54168][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=? 
+ [DEBUG][2018/01/20 09:50:54256][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 09:52:27157][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:52:27522][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:52:27525][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:52:27527][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:52:27529][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:52:27798][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 09:52:28147][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 09:52:28150][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=? 
+ [DEBUG][2018/01/20 09:52:28221][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 09:58:23778][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:58:24162][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:58:24162][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:58:24163][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:58:24164][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:58:24386][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 09:58:24818][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 09:58:24820][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=? 
+ [DEBUG][2018/01/20 09:58:24867][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 09:58:24902][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 09:58:24903][com.test.MyBatisTest.test_getTeacherandClassResultMap(MyBatisTest.java:117)]
+Classes{id=1, name='h_lijie', teacher=Teacher{id=2, name='LS2'}}
+ [DEBUG][2018/01/20 09:59:48402][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 09:59:48633][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:59:48634][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:59:48635][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:59:48638][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 09:59:48915][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 09:59:49280][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 09:59:49283][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=? 
+ [DEBUG][2018/01/20 09:59:49382][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 09:59:49413][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 09:59:49414][com.test.MyBatisTest.test_getTeacherandClassResultMap(MyBatisTest.java:117)]
+Classes{id=1, name='h_lijie', teacher=Teacher{id=2, name='LS2'}}
+ [DEBUG][2018/01/20 10:14:44413][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 10:14:44681][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:14:44681][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:14:44682][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:14:44683][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:14:44961][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 10:14:45386][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 10:14:45389][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=? 
+ [DEBUG][2018/01/20 10:14:45443][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 10:14:45501][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 10:14:45503][com.test.MyBatisTest.test_getTeacherandClassResultMap(MyBatisTest.java:120)]
+Classes{id=1, name='h_lijie', teacher=Teacher{id=2, name='LS2'}}
+ [DEBUG][2018/01/20 10:14:45504][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52feb982]
+ [DEBUG][2018/01/20 10:14:45504][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 1392425346 to pool.
+ [DEBUG][2018/01/20 10:54:21229][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 10:54:21457][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:54:21458][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:54:21460][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:54:21467][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:54:21781][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 10:54:22140][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 10:54:22147][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:54:22200][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 10:54:22229][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:54:22233][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 10:54:22235][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:54:22236][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======> Parameters: 3(Integer)
+ [DEBUG][2018/01/20 10:54:22240][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:54:22241][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========> Parameters: 4(Integer)
+ [DEBUG][2018/01/20 10:54:22244][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<========      Total: 1
+ [DEBUG][2018/01/20 10:56:1481 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 10:56:14367][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:56:14369][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:56:14371][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:56:14372][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:56:14604][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 10:56:14992][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 10:56:14995][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:56:1583 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 10:56:15102][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 10:56:15103][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+
+ [DEBUG][2018/01/20 10:56:15103][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52feb982]
+ [DEBUG][2018/01/20 10:56:15111][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 1392425346 to pool.
+ [DEBUG][2018/01/20 10:58:4683 ][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 10:58:46342][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:58:46344][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:58:46345][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:58:46346][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:59:45600][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 10:59:45767][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:59:45767][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:59:45768][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:59:45769][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 10:59:4690 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 10:59:46465][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 10:59:46469][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:59:46529][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 10:59:46563][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:59:46564][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 10:59:46568][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:59:46570][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======> Parameters: 3(Integer)
+ [DEBUG][2018/01/20 10:59:46573][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 10:59:46574][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========> Parameters: 4(Integer)
+ [DEBUG][2018/01/20 10:59:46578][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<========      Total: 1
+ [DEBUG][2018/01/20 11:01:09240][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:01:09461][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:01:09463][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:01:09465][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:01:09466][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:01:09727][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:01:1046 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:01:1057 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:01:10151][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:01:10232][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:01:10233][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:01:10235][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:01:10236][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+======> Parameters: 3(Integer)
+ [DEBUG][2018/01/20 11:01:10238][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:01:10239][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+========> Parameters: 4(Integer)
+ [DEBUG][2018/01/20 11:01:10242][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<========      Total: 1
+ [DEBUG][2018/01/20 11:04:23243][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:04:23466][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:04:23468][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:04:23470][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:04:23471][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:04:23810][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:04:24197][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 868737467.
+ [DEBUG][2018/01/20 11:04:24200][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:04:24282][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:04:24330][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:04:24331][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:04:24335][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:04:24335][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:04:24336][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:04:24337][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@33c7e1bb]
+ [DEBUG][2018/01/20 11:04:24337][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 868737467 to pool.
+ [DEBUG][2018/01/20 11:07:22295][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:07:22475][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:07:22476][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:07:22477][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:07:22478][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:07:22795][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:07:23135][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:07:23144][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * from class where c_id=? 
+ [DEBUG][2018/01/20 11:07:23246][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:07:23290][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:07:23291][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:07:23293][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:07:23299][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:07:23299][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:07:23300][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52feb982]
+ [DEBUG][2018/01/20 11:07:23301][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 1392425346 to pool.
+ [DEBUG][2018/01/20 11:22:30749][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:22:3143 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:22:3144 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:22:3144 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:22:3145 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:22:31248][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:22:31647][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:22:31649][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select * c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:22:31686][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:23:23840][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:23:2431 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:23:2431 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:23:2432 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:23:2432 ][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:23:24396][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:23:24819][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:23:24821][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:23:24867][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:23:24927][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:23:24928][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:23:24930][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:23:24931][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:23:24932][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:23:24933][org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90)]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52feb982]
+ [DEBUG][2018/01/20 11:23:24934][org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:344)]
+Returned connection 1392425346 to pool.
+ [DEBUG][2018/01/20 11:24:03138][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:24:03333][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:24:03336][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:24:03338][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:24:03340][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:24:03537][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:24:03956][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:24:03959][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:24:0421 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:24:0458 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:24:0459 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:24:0463 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:24:0464 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:24:0466 ][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:28:20131][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:28:20761][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:20762][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:20763][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:20763][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:2153 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:28:21377][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1055096410.
+ [DEBUG][2018/01/20 11:28:21380][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:28:21420][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:28:21453][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:28:21454][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:28:21456][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:28:21456][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:28:21457][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:28:42168][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:28:42355][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:42356][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:42357][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:42357][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:28:42643][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:28:4336 ][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:28:4338 ][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:28:43101][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:28:43141][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:28:43142][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:28:43146][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:28:43147][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:28:43148][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:29:45546][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:29:45762][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:29:45762][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:29:45763][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:29:45763][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:29:4661 ][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:29:46427][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:29:46430][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:29:46497][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:29:46560][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:29:46561][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ [DEBUG][2018/01/20 11:34:12473][org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)]
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ [DEBUG][2018/01/20 11:34:12689][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:34:12691][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:34:12692][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:34:12693][org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:316)]
+PooledDataSource forcefully closed/removed all connections.
+ [DEBUG][2018/01/20 11:34:12992][org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136)]
+Opening JDBC Connection
+ [DEBUG][2018/01/20 11:34:13341][org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:387)]
+Created connection 1392425346.
+ [DEBUG][2018/01/20 11:34:13345][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==>  Preparing: select c_id,c_name,teacher_id from class where c_id=? 
+ [DEBUG][2018/01/20 11:34:13450][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+==> Parameters: 1(Integer)
+ [DEBUG][2018/01/20 11:34:13493][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====>  Preparing: select t_id id,t_name name from teacher where t_id=? 
+ [DEBUG][2018/01/20 11:34:13494][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+====> Parameters: 2(Integer)
+ [DEBUG][2018/01/20 11:34:13495][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<====      Total: 1
+ [DEBUG][2018/01/20 11:34:13496][org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)]
+<==      Total: 1
+ [INFO ][2018/01/20 11:34:13497][com.test.MyBatisTest.test_getTeacherClassResultMap2(MyBatisTest.java:129)]
+Classes{id=1, name='h_lijie', teacher=null}
+ 

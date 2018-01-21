@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的
+例如namespace="me.gacl.mapping.userMapper"就是me.gacl.mapping(包名)+userMapper(userMapper.xml文件去除后缀)
+ -->
+<mapper namespace="com.com.mapper.TeacherMapper">
+    <!--select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=1;-->
+    <!--
+       resultMap 是封闭一些映射关系;
+       id 专对针对主建
+       result 针对一般字段
+    -->
+    <resultMap id="TeahcerMap" type="_Classes">
+        <id property="id" column="c_id"/>
+        <result property="name" column="c_name"/>
+        <association property="teacher" javaType="com.com.entity.Teacher">
+            <id property="id" column="t_id"/>
+            <result property="name" column="t_name"/>
+        </association>
+    </resultMap>
+    <resultMap id="TeahcerMap2" type="_Classes">
+        <id property="id" column="c_id"/>
+        <result property="name" column="c_name"/>
+        <association property="teacher" column="teacher_id" select="getTeacherMapper2"></association>
+    </resultMap>
+    <sql id="Base_ColumnList">
+        c_id,c_name,teacher_id
+    </sql>
+    <!--这个是通过一个sql查询-->
+    <select id="getTeacheMapper" parameterType="int" resultMap="TeahcerMap">
+        select * from teacher t,class c where t.t_id=c.teacher_id and c.c_id=#{id}
+    </select>
+    <!--以下是通过两个sql查询-->
+    <select id="getClasessMapper" parameterType="java.lang.Integer" resultMap="TeahcerMap2">
+        select
+        <include refid="Base_ColumnList"/>
+        from class where c_id=#{id}
+    </select>
+    <select id="getTeacherMapper2" parameterType="java.lang.Integer" resultType="_Teacher">
+        select t_id id,t_name name from teacher where t_id=#{id}
+    </select>
+</mapper>
