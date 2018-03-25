@@ -4,14 +4,20 @@ import com.com.Enum.AddressEnum;
 import com.com.Enum.CityEnum;
 import com.com.Enum.LastNameEnum;
 import com.com.Enum.FirstNameEnum;
-import com.com.entity.Classes;
-import com.com.entity.Persons;
-import com.com.entity.User;
+import com.com.entity.*;
 import com.utils.myBatisUtil;
+import org.apache.ibatis.jdbc.SQL;
+import org.apache.ibatis.ognl.IntHashMap;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import org.apache.log4j.Logger;
+import org.omg.CORBA.PUBLIC_MEMBER;
 
 
 /**
@@ -130,5 +136,47 @@ public class MyBatisTest {
         logger.info(classes);
         //sqlSession.close();
 
+    }
+    @Test
+    public void test_getStudent(){
+        SqlSession sqlSession = myBatisUtil.getFactory().openSession(true);
+        String statment = "com.com.mapper.GetStudents.GetStudentmap";
+        Classes classes = new Classes();
+        classes.setId(1);
+        Classes classes1 = sqlSession.selectOne(statment,classes);
+        logger.info(classes1);
+        Classes classes2 = new Classes();
+        classes2.setId(classes1.getId());
+        classes2.setName(classes1.getName());
+        classes2.setTeacher(classes1.getTeacher());
+        List list = classes1.getList();
+        for (int i = 0 ; i < list.size();i++){
+            logger.info(list.get(i));
+        }
+    }
+    @Test
+    /*模糊查询的操作*/
+    public void test_getGoodmap(){
+        SqlSession sqlSession = myBatisUtil.getFactory().openSession(true);
+        String statment  ="com.com.mapper.QueryCondtion.Getgoodmap";
+        String name = "o";
+        name = null;
+        QueryCondtion queryCondtion = new QueryCondtion("%"+name+"%",23,13);
+        List<User>  list = sqlSession.selectList(statment,queryCondtion);
+        logger.info(list);
+        sqlSession.close();
+    }
+    @Test
+    /*调用的数据库的存储过程，主要是把入参在设置是map的类型，并且没有值的初始给他付一个-1，并且把入参的值入到一个map里*/
+    public void test_call_sqlcache(){
+        SqlSession sqlSession = myBatisUtil.getFactory().openSession(true);
+        String statment= "com.com.mapper.Puser.GetUserCount";
+        Map<String,Integer> map = new HashMap<String,Integer>();
+        map.put("sexid",1);
+        map.put("usercount",-1);
+        System.out.println(map);
+        sqlSession.selectOne(statment,map);
+       // map.get("usercount");
+        System.out.println(map.get("usercount"));
     }
 }
